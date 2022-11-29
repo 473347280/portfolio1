@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS Links-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Grow your own way</title>
+</head>
+
+<body class="container p-5">
+    <header class="hero">
+        <div class="columns p-5 is-vcentered">
+            <div class="column is-one-third">
+                <div class='level'>
+                    <div class='level-item has-text-centered-desktop'>
+                        <figure class='image is-128x128'><img src="/Images/Grow_your_own_logo.jpg" alt="house plants"></figure>
+                    </div>
+                </div>
+            </div>
+            <div class="column has-text-centered notification">
+                <div class="container">
+                    <img src="/Images/Grow_your_own_banner.jpg" alt="Nature" style="width:100%;">
+                    <div class="text-block">
+                        <h1 class="title">Grow Your Own Way</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+<nav class="level p-5 subtitle is-5 notification">
+    <p class="level-item navbar-item">
+        <a href="/index.html" class="link">Home</a></p>
+    <p class="level-item navbar-item">
+        <a href="/html/gallery.html" class="link">Gallery</a></p>
+    <p class="level-item navbar-item">
+        <a href="/html/contact.html" class="link">Contact</a></p>
+</nav>
+
+<main id="contact-main">
+    <div class="container">
+        <div style="text-align:center">
+            <h2><b>Contact Us</b></h2>
+            <p>Swing by for a cup of coffee, or leave us a message:</p>
+        </div>
+        <div class="row">
+            <div class="column">
+                <body>
+                    <table style="width:100%; height: fit-content;">
+                        <tr>
+                            <th>Alison McIntyre</th>
+                            <th>Administration</th>
+                        </tr>
+                        <tr>
+                            <td>Email</td>
+                            <td>iloveplants@growyourown.com</td>
+                        </tr>
+                        <tr>
+                            <td>Location</td>
+                            <td>123 Fake Street Gold Coast 4217</td>
+                        </tr>
+                        <tr>
+                            <td>Phone</td>
+                            <td>1800 Plants</td>
+                        </tr>
+                    </table>
+                </body>
+            </div>
+            <div class="column">
+                <form name="contactForm" action="#">
+                    <table style="width:100%; height: fit-content;">
+                        <tr>
+                            <td>
+                                <label for="name">Name</label>
+                            </td>
+                            <td>
+                                <input name="name" type="text" id="name">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="contact">Contact Number</label>
+                            </td>
+                            <td>
+                                <input name="contact" type="text" id="contact">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="email">Email</label>
+                            </td>
+                            <td>
+                                <input name="email" type="email" id="email">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p id="preferred">Preferred Contact Method</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="radio1">Email</label>
+                            </td>
+                            <td>
+                                <input checked="checked" id="radio1" name="sex" type="radio" value="male">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="radio2">Phone</label>
+                            </td>
+                            <td>
+                                <input name="sex" id="radio2" type="radio" value="female">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="dropdown">Reason For Contact Request</label>
+                            </td>
+                            <td>
+                                <select id="dropdown">
+                                    <option disabled selected="selected">Please Select</option>
+                                    <option value="1"> Buy plants</option>
+                                    <option value="2"> Help save my plants </option>
+                                    <option value="3"> Gardening</option>
+                                    <option value="4"> Landscaping supplies</option>
+                                    <option value="5"> ..</option>
+                                    <option value="6"> ..</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="other">Other</label>
+                            </td>
+                            <td>
+                                <input name="other" type="text" id="other">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="checkbox">Would you like to sign up for our newsletter?</label>
+                            </td>
+                            <td>
+                                <input id="checkbox" name="democheckbox" type="checkbox" value="1">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Password
+                            </td>
+                            <td>
+                                <input type="password">
+                            </td>
+                        </tr>
+                    </table>
+                    <button type="submit" class="myButton" value="Submit">Submit</button>
+                </form>
+            </div>
+        </div>
+</main>
+<footer class="has-text-centered mt-2 custom-icons">
+    <span class="icon is-large">
+        <i class="fa-brands fa-facebook fa-2x"></i>
+    </span>
+    <span class="icon is-large">
+        <i class="fa-brands fa-instagram fa-2x"></i>
+    </span>
+    <span class="icon is-large">
+        <i class="fa-brands fa-twitter fa-2x"></i>
+    </span>
+</footer>
+<div style="text-align:center"><span> © 2022 Alison McIntyre</span></div>
+</body>
+
+</html>
